@@ -1,0 +1,40 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        primary: {
+          50: "#eef2ff",
+          100: "#e0e7ff",
+          300: "#a5b4fc",
+          500: "#6366f1",
+          600: "#4f46e5",
+          700: "#4338ca",
+          900: "#312e81",
+        },
+        accent: {
+          500: "#14b8a6",
+          600: "#0d9488",
+        },
+        surface: {
+          light: "#ffffff",
+          muted: "#f8fafc",
+          dark: "#0f172a",
+        },
+      },
+      fontFamily: {
+        sans: ["Inter", "system-ui", "sans-serif"],
+        heading: ["Poppins", "system-ui", "sans-serif"],
+      },
+      borderRadius: {
+        xl: "1rem",
+        "2xl": "1.5rem",
+      },
+      screens: {
+        xs: "480px",
+      },
+    },
+  },
+  plugins: [],
+};
