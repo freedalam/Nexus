@@ -33,4 +33,5 @@ src/
   index.css
 ```
 
+
 See `ARCHITECTURE.md` for a full breakdown of the component structure and data flow (required for Milestone 1).
