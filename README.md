@@ -11,15 +11,6 @@ npm install
 npm run dev
 ```
 
-Then open the URL shown in the terminal (usually http://localhost:5173).
-
-## Build for production
-
-```bash
-npm run build
-npm run preview
-```
-
 ## Project structure
 
 ```
