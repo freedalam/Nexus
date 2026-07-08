@@ -6,6 +6,7 @@ React + TypeScript + Vite + Tailwind CSS project implementing:
 - A consistent UI theme (colors, typography, responsive grid)
 - A meeting scheduling calendar (availability slots, meeting requests, accept/decline, confirmed meetings on dashboard)
 
+
 **Week 2**
 - A video call UI (real WebRTC camera/mic preview, mute/camera toggle, screen share, start/end call)
 - A Document Chamber (upload & preview PDFs/images, canvas-based e-signature, Draft/In Review/Signed status)
